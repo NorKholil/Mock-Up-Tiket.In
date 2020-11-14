@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+
+/* bintang Untuk memenuhi content didalam browser  */
+
+.welcome {
+    background: radial-gradient(95.66% 1666.54% at 4.34% 57.54%, rgba(1, 5, 99, 0.91) 0%, #254DD9 100%);
+    height: 70px;
+    width: 1440px;
+    justify-content: space-between;
+}
+
+
+/* Justyfy... Untuk memberikan posisi konten kanan dan kiri */
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+
+/* flex, untuk memberikan posisi content satu baris  */
+
+.logo-justify a {
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    width: 30px;
+    height: 27px;
+    margin-left: 1280px;
+    color: white;
+}
+
+.welcome img {
+    width: 50px;
+    height: 47px;
+    margin: 55px;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: white;
+    height: 119px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    display: inline-block;
+    width: 212px;
+    height: 119px;
+}
+
+
+/* inline-block. untuk mengatur agar kontent bisa diubah */
+
+.header-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 10px;
+    margin: 10px 5px;
+}
+
+.header-list a {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+}
+
+.header-list a:hover {
+    background-color: rgb(71, 71, 255);
+    color: white;
+}
+
+.main {
+    background-color: white;
+    width: 1440px;
+    height: 750px;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* position relatve, untuk mengatur posisi bacground agar bisa diubah */
+
+.main img {
+    width: 1314px;
+    height: 457px;
+    padding-left: 65px;
+}
+
+.main h2 {
+    padding-left: 114px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.main p {
+    width: 1065px;
+    height: 202px;
+    padding-left: 114px;
+    padding-top: 20px;
+    padding-right: 60px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.footer {
+    background: radial-gradient(95.66% 1666.54% at 4.34% 57.54%, rgba(1, 5, 99, 0.91) 0%, #254DD9 100%);
+    width: 1440px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor {
+    display: flex;
+}
+
+.logo-pesona img {
+    width: 150px;
+    height: 36px;
+    margin: 25px 20px 20px 50px;
+}
+
+.logo-muharram img {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    margin: 25px 0 25px 10px;
+    justify-content: space-between;
+}
+
+.logo-harjabo img {
+    width: 99px;
+    height: 61px;
+    margin: 10px 0 10px 20px;
+    justify-content: space-between;
+}
+
+.logo-ijen-vestifal img {
+    width: 58px;
+    height: 36px;
+    margin: 25px 0 25px 30px;
+    justify-content: space-between;
+}
+
+.logo1 {
+    display: flex;
+    margin-right: -855px;
+}
+
+.logo-instagram img {
+    margin: 30px 190px 20px 0;
+    width: 25px;
+    justify-content: right;
+}
+
+.logo-facebook img {
+    margin: 30px 190px 20px 0;
+    width: 25px;
+    color: darkblue;
+    background-color: white;
+}
+
+.logo-twiter img {
+    margin: 30px 200px 20px 0;
+    width: 25px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list li {
+    display: inline-block;
+    color: white;
+    margin: 30px 50px 20px 0;
+    font-size: 18px;
+}
