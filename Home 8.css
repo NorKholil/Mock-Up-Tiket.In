@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.lores {
+    width: 130px;
+    height: 80px;
+    margin: 60px 0 0 1300px;
+    position: absolute;
+    box-shadow: 3px 3px 3px 3px black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.lo-res li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lo-res li a:hover {
+    background-color: rgb(71, 71, 255);
+    color: white;
+    border-radius: 2px;
+}
+
+.lo-res li {
+    font-size: 20px;
+    width: 90px;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.welcome {
+    background: radial-gradient(95.66% 1666.54% at 4.34% 57.54%, rgba(1, 5, 99, 0.91) 0%, #254DD9 100%);
+    height: 70px;
+    width: 1440px;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+.logo-justify a {
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    width: 30px;
+    height: 27px;
+    margin-left: 1280px;
+    color: white;
+}
+
+.welcome img {
+    width: 50px;
+    height: 47px;
+    margin: 55px;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: white;
+    height: 119px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    display: inline-block;
+    width: 212px;
+    height: 119px;
+}
+
+.header-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 10px;
+    margin: 10px 5px;
+}
+
+.header-list a {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+}
+
+.header-list a:hover {
+    background-color: rgb(71, 71, 255);
+    color: white;
+}
+
+.main {
+    height: 1080px;
+}
+
+.banner {
+    height: 461px;
+    width: 1440px;
+    background-image: url(img/Banner\ 2.jpg);
+    background-size: cover;
+    background-position: 0 -170px;
+}
+
+.nav-right {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 200px 0 0 1300px;
+}
+
+.nav-left {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 200px 0 0 20px;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.judul {
+    width: 644px;
+    margin: 45px 0 14px 67px;
+}
+
+.judul h1 {
+    font-size: 60px;
+    font-family: 'poppins';
+}
+
+.paragraf {
+    width: 644px;
+    height: 100px;
+    margin: -20px 0 0 114px;
+    font-family: 'poppins';
+    color: white;
+}
+
+.paragraf {
+    font-size: 18px;
+}
+
+.deskripsi {
+    /* height: 619px; */
+    display: flex;
+    width: 1440px;
+}
+
+.left {
+    display: block;
+    width: 720px;
+    height: 619px;
+}
+
+.paragraf1 p {
+    font-size: 20px;
+    width: 572px;
+    margin: 57px 0 0 113px;
+    text-align: justify;
+}
+
+.paragraf2 p {
+    font-size: 15px;
+    width: 572px;
+    margin: 57px 0 0 113px;
+    text-align: justify;
+}
+
+.right {
+    display: block;
+    align-items: flex-end;
+    width: 720px;
+    height: 619px;
+}
+
+.betoh {
+    margin: 74px 0 0 0;
+}
+
+.betoh h1 {
+    font-size: 30px;
+    color: black;
+    width: 200px;
+    margin: auto;
+}
+
+.betoh h2 {
+    font-size: 15px;
+    width: 290px;
+    margin: auto;
+    margin-top: -15px;
+}
+
+.betoh-soon img {
+    width: 582px;
+    height: 348px;
+    margin: 25px 0 0 73px;
+}
+
+.footer {
+    background: radial-gradient(95.66% 1666.54% at 4.34% 57.54%, rgba(1, 5, 99, 0.91) 0%, #254DD9 100%);
+    width: 1440px;
+    height: 364px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.container0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor {
+    display: block;
+    margin-top: 28px;
+    margin-left: 114px;
+}
+
+.media h3 {
+    color: orange;
+    font-size: 16px;
+    width: 125px;
+    margin: 0 0 0 20px;
+}
+
+.container1 {
+    display: block;
+}
+
+.pesona {
+    display: block;
+    width: 280px;
+}
+
+.logo-pesona img {
+    width: 150px;
+    height: 56px;
+    margin: 25px 20px 20px 20px;
+}
+
+.mhi {
+    display: flex;
+}
+
+.logo-muharram img {
+    width: 115px;
+    height: 106px;
+    margin: 25px 0 25px 10px;
+    justify-content: space-between;
+}
+
+.logo-harjabo img {
+    width: 115px;
+    height: 106px;
+    margin: 25px 0 10px 20px;
+    justify-content: space-between;
+}
+
+.logo-ijen-vestifal img {
+    width: 115px;
+    height: 106px;
+    margin: 25px 0 25px 10px;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: block;
+    margin: 28px 206px 0 0;
+}
+
+.alamat {
+    height: 128px;
+}
+
+.alamat h4 {
+    font-size: 16px;
+    color: orange;
+}
+
+.alamat p {
+    font-size: 16px;
+    color: white;
+}
+
+.logo1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.logo1 h5 {
+    font-size: 16px;
+    color: orange;
+}
+
+.container21 {
+    display: flex;
+}
+
+.sosial-media-logo {
+    display: block;
+}
+
+.logo-instagram img {
+    width: 25px;
+    justify-content: right;
+}
+
+.logo-facebook img {
+    width: 25px;
+    color: darkblue;
+    background-color: white;
+}
+
+.logo-twiter img {
+    /* margin: 30px 200px 20px 0; */
+    width: 25px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list li {
+    display: block;
+    color: white;
+    margin: 0 0 5px 10px;
+    font-size: 18px;
+}
+
+.copyright p {
+    align-items: flex-end;
+    margin: auto;
+    margin-top: 10px;
+    width: 330px;
+    color: white;
+}

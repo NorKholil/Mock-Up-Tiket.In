@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tienne:wght@400;700&display=swap');
+* {
+    font-family: 'Tienne';
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url('img/Ijen-cover.jpg');
+    width: 1449px;
+    height: 1024px;
+    background-size: cover;
+}
+
+.logo-pesona img {
+    height: 450px;
+}
+
+.judul {
+    display: block;
+    text-align: center;
+    width: 1449px;
+}
+
+.judul h1 {
+    font-size: 100px;
+    color: white;
+    margin: auto;
+}
+
+.judul h2 {
+    font-size: 40px;
+    color: white;
+    margin: -20px 0 40px 0;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tombol a {
+    text-decoration: none;
+}
+
+input {
+    background: radial-gradient(159.97% 67694.69% at 0% 50%, #093BF7 0%, rgba(11, 238, 253, 0.633947) 86.46%, rgba(9, 236, 251, 0.28886) 99.98%, rgba(44, 223, 239, 0.140625) 99.99%, rgba(0, 221, 208, 0) 100%);
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5)); */
+    border-radius: 20px;
+    width: 228px;
+    height: 60px;
+    font-size: 25px;
+}
