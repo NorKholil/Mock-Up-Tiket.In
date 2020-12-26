@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Form Login.css">
 </head>
 
-<body>
+<body id="body">
     <div class="welcome">
         <h1><i><b>Selamat Datang</b></i></h1>
         <div class="logo-justify">
@@ -30,16 +30,27 @@
     </div>
 
     <div class=" main ">
-        <div class="form-login ">
-            <h3>Masuk</h3>
+        <form class="form-login" id="form-login">
+            <h3>MASUK</h3>
             <h4>Silahkan Masuk Disini</h4>
-            <p><b>Email </b></p>
-            <input type="text">
-            <p><b>Kata Sandi</b></p>
-            <input type="password" maxlength="10"><br>
-            <input class="tombol" type="submit" value="Masuk">
-        </div>
+            <p><b>Username</b></p>
+            <input type="text" id="username" placeholder="Input Username">
+            <p><b>Password</b></p>
+            <input type="password" maxlength="10" id="password" placeholder="Input Password"><br>
+            <button class="tombol" type="submit" data-toggle="modal">Masuk</button>
+            <div class="modal invalid"><b>Invalid username or password</b></div>
+        </form>
 
+
+    </div>
+    <div class="modal success">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Login Success!!!
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="footer ">
@@ -71,6 +82,7 @@
         </div>
 
     </div>
+    <script src="scriptLogin.js"></script>
 </body>
 
 </html>
